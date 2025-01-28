@@ -7,3 +7,4 @@
 - git commit -m "test"
 - git push 
 - git checkout -b "test_2"
+- test_2
