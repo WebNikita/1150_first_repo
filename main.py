@@ -1,10 +1,10 @@
-def my_sum(**kwargs):
-    
-    print(kwargs)
-    return 0
+def func_1(x):
+    if x % 2 == 0:
+        return True
+    else:
+        return False
 
-my_sum(name = "Test", age = 16, weight = 34, school = 1123)
+def func_2(x):
+    return x % 2 == 0
 
-summa = lambda *args: sum(args)
-
-print(summa(1,2,3,4,5))
+func_3 = lambda x: x % 2 == 0
